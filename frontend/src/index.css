@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&familt=VT323@display=swap') ;
+
+body {
+  margin: 0;
+  font-family: 'Poppins';
+
+  background-image: url('images/background6.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app{
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(1px);
+  transform: translate(0%,10%);
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  height: 70%;
+}
+.navbar{
+  text-align: center  ;
+  border: 1px;
+  height: 100%;
+  margin-top: 10vh;
+}
+.back-button{
+  background-image: url('./images/back_button.png');
+  background-size: cover;
+  display: inline-block;
+  width: 40px; 
+  float: left ; 
+  display: inline-block; 
+
+  height: 40px; 
+}
+.h1{
+  text-align: center;
+
+}
+
+label,input{
+  display:block;
+}
+input{
+  margin-top: 3vh;
+  padding: 5px;
+  border:1px solid rgb(204, 193, 193);
+  border-radius: 4px;
+  border-bottom: 1px solid black  ;
+  width: 100%;
+  margin-bottom: 5px;
+}
+label{
+  margin-top: 8vh;
+  font-size: 14px;
+}
+.form-tab-register{
+  width:70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.form-tab-login{
+  width:70%;
+  margin: 0 auto;
+}
+.forget-password{
+  text-align: right;
+  font-size: 10px;
+  width:80%;
+  margin:  0 auto;
+  cursor: pointer;
+  color: black;
+  text-decoration: none; 
+
+}
+::placeholder{
+  font-size: small;
+}
+.button-main{
+  width: 40%;
+  margin: 0 auto;
+  padding-top:12%;
+  padding-bottom: 5%;
+
+  
+}
+.button-register{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+button{
+  width: 100%;
+  border-radius: 4px;
+  font-size: 15px;
+  background-image: url('images/background6.jpg');
+  background-size: cover;
+  border:0px;
+  padding:10px;
+  background-attachment: fixed;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #007bff; /* Change background color on hover */
+  transform: scale(1.1);
+}
+.register{
+  text-align: center;
+  font-size: 10px;
+  padding: 10%;
+}
